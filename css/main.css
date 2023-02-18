@@ -330,6 +330,7 @@ img {
   color: #fff;
   background-color: #E86F54;
   border-radius: 8px;
+  border-color: none;
 }
 
 @-webkit-keyframes zoom {
