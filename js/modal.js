@@ -24,9 +24,10 @@
     refs2.openModa2lBtn.addEventListener("click", toggleModal2);
     refs2.closeModa2lBtn.addEventListener("click", toggleModal2);
   
-    function toggleModal2() {
+    function toggleModal2(event) {
       console.log(refs2);
       refs2.modal2.classList.toggle("is-hidden2");
+      event.target.preventDefault()
     }
     
     
