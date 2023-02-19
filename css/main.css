@@ -250,6 +250,10 @@ img {
   .modal {
     max-width: none;
     width: 480px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 48px;
   }
 }
 .modal__title {
@@ -326,11 +330,21 @@ img {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.2142857143;
-  height: 37px;
   color: #fff;
   background-color: #E86F54;
   border-radius: 8px;
-  border-color: none;
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 240px;
+  height: 37px;
+  padding: 10px 35px;
+}
+@media screen and (min-width: 768px) {
+  .modal__button-send {
+    height: 50px;
+    min-width: 416px;
+  }
 }
 
 @-webkit-keyframes zoom {
