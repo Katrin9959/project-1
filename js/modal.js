@@ -16,13 +16,13 @@
     }
     
     const refs2 = {
-      openModa2lBtn: document.querySelector("[data-modal2-open]"),
-      closeModa2lBtn: document.querySelector("[data-modal2-close]"),
+      openModal2Btn: document.querySelector("[data-modal2-open]"),
+      closeModal2Btn: document.querySelector("[data-modal2-close]"),
       modal2: document.querySelector("[data-modal2]"),
     };
   
-    refs2.openModa2lBtn.addEventListener("click", toggleModal2);
-    refs2.closeModa2lBtn.addEventListener("click", toggleModal2);
+    refs2.openModal2Btn.addEventListener("click", toggleModal2);
+    refs2.closeModal2Btn.addEventListener("click", toggleModal2);
   
     
     function toggleModal2(event) {
