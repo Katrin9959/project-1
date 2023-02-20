@@ -19,11 +19,32 @@
 .is-hidden .modal{
    animation: none;
    }
+.modal2{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+
+   .show-modal-2{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    right: 17px;
+    bottom:330px;
+    animation:  zoom 750ms linear forwards;
+
+   }
+  
+
 
 .modal {
    max-width: 272px;
    width: 100%;
    width: 528px;
+   height: 357px;
+
    background-color: #fff;
    position: relative;
    transition: transform 250ms liniar;
@@ -40,7 +61,7 @@
        padding-left: 32px;
        padding-top: 32px;
        padding-bottom: 48px;
-
+       height: 505px;
      }
 
    &__title {
@@ -135,6 +156,8 @@
        transform: scale(1);
    }
 }
+
+
 
 .modal__label:not(:last-child){
    margin-bottom: 14px;
